@@ -7,7 +7,7 @@ pipeline{
     stage('1GetCode'){
       steps{
         sh "echo 'cloning the latest application version' "
-        git credentialsId: 'Github-credential', url: 'https://github.com/signal2009/Boa_Application'
+        git branch: 'dev', url: 'https://github.com/signal2009/multi-pipeline1'
       }
     }
     stage('3Test+Build'){
