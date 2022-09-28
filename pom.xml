@@ -96,19 +96,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://192.168.1.102:8081/repository/dev-tesla-releases/</url>
+	      <url>http://3.130.184.47:8081/repository/dev-multipipe-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://192.168.1.102:8081/repository/dev-tesla-snapshots/</url>
+	      <url>http://3.130.184.47:8081/repository/dev-multipipe-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>dev-branch-tesla-app</finalName>
+		<finalName>dev-branch-tesla-app2</finalName>
 		
 		<plugins>
 			<plugin>
